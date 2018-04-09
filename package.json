@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/delay": "^2.0.1",
+    "delay": "^2.0.0",
     "konva": "^2.0.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
