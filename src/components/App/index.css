@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  box-shadow: 0 0 40px rgba(0, 0, 0, .2);
+  /* position: relative; */
+  z-index: 10;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-nav-button {
+  padding: 5px 20px;
+  height: 30px;
+  line-height: 30px;
+  box-sizing: content-box;
+  display: block;
+  text-decoration: none;
+  color: #777;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

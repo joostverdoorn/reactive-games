@@ -1,0 +1,28 @@
+.GameOfLife {
+  background: white;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.GameOfLife-container {
+  box-shadow: 0 0 40px rgba(0, 0, 0, .2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.GameOfLife-cell {
+  width: 10px;
+  height: 10px;
+  /* border: 1px solid #777; */
+  transition: background-color .1s ease;
+}
+
+.GameOfLife-cell-alive {
+  background-color: #aaa;
+}

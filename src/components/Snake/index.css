@@ -1,0 +1,48 @@
+.Snake {
+  outline: none;
+  background: white;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Snake-container {
+  box-shadow: 0 0 40px rgba(0, 0, 0, .2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Snake-container__dead {
+  background: #555;
+}
+
+.Snake-container canvas {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.Snake-container__dead canvas {
+  opacity: 0.2;
+}
+
+.Snake-dead-message {
+  position: absolute;
+  text-align: center;
+  z-index: 100;
+}
+
+.Snake-reset-button {
+  margin: 12px;
+  border: none;
+  background: white;
+  color: black;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
